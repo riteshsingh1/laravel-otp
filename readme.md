@@ -1,8 +1,8 @@
 # Otp
 
-[![Latest Version on Packagist][ico-version]][link-packagist]
+<!-- [![Latest Version on Packagist][ico-version]][link-packagist] -->
 
-This is where your description should go. Take a look at [contributing.md](contributing.md) to see a to do list.
+This package uses 2Factor to send and verify OTP laravel
 
 ## Installation
 
