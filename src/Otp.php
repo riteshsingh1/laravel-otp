@@ -104,6 +104,7 @@ class Otp
     public function verify($sessionId, $input)
     {
         $apiKey = config('otp.apiKey');
+        $this->otpType = config('otpType', 'SMS');
         $client = new Client();
         $response =  $client->request(
             'GET',
