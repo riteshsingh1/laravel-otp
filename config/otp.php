@@ -29,6 +29,6 @@ return [
     /**
      * Api Key
      */
-    'apiKey' => env('API_KEY', '398994a5-c4ec-11e5-9a14-00163ef91450'),
+    'apiKey' => env('API_KEY', ''),
 
 ];
